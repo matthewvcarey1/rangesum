@@ -34,6 +34,10 @@ Type control C in the console.
 
 This tests that the function (using Gauss's formula) used to calculate the result really does return the same result as labouriously adding all the values together.
 
+## Efficiency
+
+The calculation of the sum has an Efficiency of Big O 1. However big the range is (within the bounds of Python Integers) it should take about the same time.
+
 ## Assumptions
 
 I have assumed that all the ranges start at 0 that this function will sum. This is what the output of range(number) outputs.
