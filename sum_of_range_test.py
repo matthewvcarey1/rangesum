@@ -7,9 +7,10 @@ class RangeTest(unittest.TestCase):
         sizes = [2, 101, 157, 123456, 10000001]
         for size in sizes:
             val = 0
-            for i in range(size):
+            num_range = range(size)
+            for i in num_range:
                 val += i
-            self.assertEqual(val, sum_of_range(size))
+            self.assertEqual(val, sum_of_range(num_range))
 
 
 if __name__ == '__main__':
