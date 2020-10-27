@@ -18,7 +18,7 @@ This is a service that calculates the sum of all the numbers in the range
     venv\Scripts\activate
     pip install Flask
     set FLASK_APP=rangesum.py
-    python -m flask:
+    flask run
 
 ## To query
      curl http://localhost:5000/total
