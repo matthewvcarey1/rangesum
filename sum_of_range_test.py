@@ -17,7 +17,7 @@ class RangeTest(unittest.TestCase):
             val += i
         self.assertEqual(val, sum_of_range(num_range))
         val = 0
-        num_range = [2,3,4,5]
+        num_range = [-3,-2,-1,0,1,2,3,4,5]
         for i in num_range:
             val += i
         self.assertEqual(val, sum_of_range(num_range))
