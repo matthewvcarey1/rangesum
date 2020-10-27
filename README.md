@@ -40,4 +40,4 @@ The calculation of the sum has an Efficiency of Big O 1. However big the range i
 
 ## Assumptions
 
-I have assumed that all the ranges start at 0 that this function will sum. This is what the output of range(number) outputs.
+I have assumed that all the ranges are indeed series of integers.
