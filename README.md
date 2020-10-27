@@ -31,6 +31,9 @@ Type control C in the console.
 
 ## To Test
     python3 -m unittest sum_of_range_test.py
+or
+
+    python -m unittest sum_of_range_test.RangeTest.test_range_sum
 
 This tests that the function (using Gauss's formula) used to calculate the result really does return the same result as labouriously adding all the values together.
 
