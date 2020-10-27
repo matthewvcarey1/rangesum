@@ -43,4 +43,4 @@ The calculation of the sum has an Efficiency of Big O 1. However big the range i
 
 ## Assumptions
 
-I have assumed that all the ranges are indeed series of integers.
+I have assumed that all the ranges are indeed series of adjacent integers.
